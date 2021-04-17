@@ -1,0 +1,13 @@
+.button {
+    background-color: mediumaquamarine;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: xx-large;
+    border: 5px solid green;
+    text-align:center
+}
+.button:hover {
+    background-color: aquamarine;
+    color: white;
+    text-align:center
+}
