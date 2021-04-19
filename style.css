@@ -6,8 +6,20 @@
     border: 5px solid green;
     text-align:center
 }
+.header {
+    text-align:center;
+}
+
 .button:hover {
     background-color: aquamarine;
     color: white;
     text-align:center
+}
+
+p, label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
 }

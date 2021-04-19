@@ -4,33 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nico Tinbergen Exam</title>
-    <link href="style.css"/>
-    <script src="./scripts.js">
-
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Quizzical Quiz</title>
 </head>
 <body>
-    <div class="header">
-        <p>Nico Tinbergen's Behavioral Questions</p>
-        <button class="start-btn button" id="start">START</button>
-        <p class="timer countdown">2:12:20</p>
+    <div id="header">
+        <h1 style="text-align: center;">QUIZZY</h1>
+        <h3>Score:</h3>
+        <p id="score">Score</p>
+        <br>
+        <h3>Timer:</h3>
+        <p id="timer">Timer</p>
+        <button id="start-btn">Start Questions</button>
+    </div>
+    <div id="quiz">
+        <form id="myForm"></form>
     </div>
 
-    <div class="quiz">
-        <p class="question">Default Question?</p>
-        <ul class="answers">
-            <li id="ans1">Answer 1</li>
-            <li id="ans2">Answer 2</li>
-            <li id="ans3">Answer 3</li>
-            <li id="ans4">Answer 4</li>
-        </ul>
-    </div>
+    <div id="results"></div>
 
-    <div id="submit"></div>
-
-    <button class="submit-btn">SUBMIT</button>
-
-    <h1 class="time" style="text-align:center;">456</h1>
-    <div id="main">123</div>
+    <script src="scripts.js"></script>
 </body>
 </html>
